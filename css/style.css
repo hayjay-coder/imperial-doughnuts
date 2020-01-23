@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Vesper Libre', serif;
+    color: rgb(207, 19, 107);
+}
+
+header{
+    width: 100vw;
+    height: 100vh;
+}
+
+nav{
+    width: 90%;
+    margin: 10px auto;
+    text-align: right;
+}
+nav ul li {
+    display: inline-block;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(207, 19, 107);
+    font-size: 20px;
+    margin: 0 10px;
+    letter-spacing: 1px;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+.strapline-container{
+    border: 2px solid rgb(207, 19, 107);
+    width: 90%;
+    height: 85%;
+    margin: auto auto;
+    text-align: center;
+    background: url(../img/dough-3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.main-strapline{
+    color: rgb(207, 19, 107);
+    text-transform: uppercase;
+    font-size: 100px;
+    margin: 50px 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.second-strapline{
+    color: #ffffdd;
+    font-size: 25px;
+    font-style: italic;
+}
+
+.section-title{
+    text-align: center;
+    font-family: 'poppins';
+    color: rgb(207, 19, 107);
+    text-transform: uppercase;
+    font-family: 240%;
+    margin-bottom: 25px;
+}
+.about-section{
+    width: 100vw;
+    height: 90vh;
+}
+
+.about-container{
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row ;
+}
+
+.left-box{
+    width: 45%;
+    text-align: justify;
+    line-height: 220%;
+    font-weight: bold;
+    letter-spacing: .8px;
+}
+
+.right-box{
+    width: 40%;
+    margin-left: 6%;
+}
+
+.grid-image-one{
+    width: 50%;
+    height: 240px;
+    background: url(../img/dough-4.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.grid-image-two{
+    width: 50%;
+    height: 240px;
+    background: url(../img/dough-5.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.grid-image-three{
+    width: 50%;
+    height: 240px;
+    background: url(../img/dough-1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.grid-image-four{
+    width: 50%;
+    height: 240px;
+    background: url(../img/dough-2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.top-row, .bottom-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.doughnut-section{
+    width: 100vw;
+}
+.image-container{
+    width: 100%;
+}
+.row-one, .row-two, .row-three{
+    width: 90%;
+    margin: 10px auto;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.grid-item{
+    width: 30%;
+    height: 310px;
+    margin: 15px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.grid-item:hover{
+    opacity: 0.6;
+}
+
+#doughnut-one{
+    background: url(../img/dough-7.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#doughnut-two{
+    background: url(../img/dough-8.jpg);
+}
+#doughnut-three{
+    background: url(../img/dough-9.jpg);
+}
+#doughnut-four{
+    background: url(../img/dough-10.jpg);
+}
+#doughnut-five{
+    background: url(../img/dough-11.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#doughnut-six{
+    background: url(../img/dough-12.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#doughnut-seven{
+    background: url(../img/dough-13.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#doughnut-eight{
+    background: url(../img/dough-1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#doughnut-nine{
+    background: url(../img/d.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.stores-section{
+    width: 100vw;
+}
+.stores-container{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+.stores-div{
+    width: 30%;
+    height: 240px;
+    margin: 20px;
+    text-align: center;
+}
+h4{
+    font-size: 24px;
+}
+
+.contact-section{
+    width: 100vw;
+    height: 50vh;
+    background: rgb(207, 19, 107);
+    text-align: center;
+    color: #ffffdd;
+}
+.contact-title{
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-size: 250%;
+}
+.email{
+    font-size: 130%;
+}
+
+.social-media-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 40vw;
+    margin: 0 auto;
+}
+.social-media-icon{
+    margin: 0 7.5px;
+}
